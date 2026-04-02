@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "cd artifacts/luxury-dashboard && npm install --ignore-scripts && npm run dev"
+    "start": "cd artifacts/luxury-dashboard && npm install && npm run dev",
+    "dev": "cd artifacts/luxury-dashboard && npm install && npm run dev",
+    "build": "cd artifacts/luxury-dashboard && npm install && npm run build"
   },
   "private": true,
   "devDependencies": {
